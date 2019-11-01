@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>My WebPage Music</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://at.alicdn.com/t/font_1027722_bqnjm427bu4.css">
+</head>
+<body>
+  <div class="container layout">
+    <ul class="songList">
+    </ul>
+    <div class="musicBox">
+      <div class="playArea clearfix">
+        <div class="btn">
+          <i class="iconfont icon-step-backward"></i>
+          <i class="iconfont icon-pause playBtn"></i>
+          <i class="iconfont icon-step-forward"></i>
+        </div>
+        <div class="musicInfo">
+          <h3 class="songName">song</h3>
+          <p class="singer">singer</p>
+        </div>
+      </div>
+      <div class="timeProgress">
+        <div class="timebar">
+          <div class="timeTotal" style="margin-top:10px;
+          height: 3px;
+          background-color: #74c5b5;
+          border-radius: 2px;">
+            <span class="timeNow" style="width:0; border-radius:2px;
+            display: block;
+            height: 3px;
+            background-color: #fff;"></span>
+          </div>
+        </div>
+        <div class="playTime">0:00</div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+</html>

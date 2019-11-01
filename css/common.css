@@ -1,0 +1,11 @@
+body {
+  color: #f06d6a;
+  font: 16px/1.5  STKaiti;
+  background-color: #666;
+  height: 100%;
+}
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}

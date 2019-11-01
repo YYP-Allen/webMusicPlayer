@@ -1,0 +1,37 @@
+
+.container {
+  width:380px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+.showPlay {
+ color: #fff;
+ background-color: pink;
+}
+ul > li {
+  background-color: rgba(125,120,255,.4);
+  width:380px;
+  border: 1px solid rgb(223, 174, 174,.5);      
+}
+.container > .musicBox {
+  background-color: #ccc;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+}
+.playArea > .btn {
+  float: left;
+}
+.playArea > .info {
+  margin-left: 135px;
+}
+h3 {
+  font: 20px/1.5 STKaiti;
+  font-weight: bold;
+}
+.btn >.iconfont {
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
