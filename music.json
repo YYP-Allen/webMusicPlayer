@@ -1,22 +1,22 @@
 [
   {
-    "src": "http://cloud.hunger-valley.com/music/玫瑰.mp3",
-    "title": "1玫瑰",
-    "auther": "贰佰"
+    "src": "https://yyp-allen.github.io/webMusicPlayer/music/GALA-%E8%BF%BD%E6%A2%A6%E8%B5%A4%E5%AD%90%E5%BF%83/GALA-%E8%BF%BD%E6%A2%A6%E8%B5%A4%E5%AD%90%E5%BF%83.mp3",
+    "title": "追梦赤子心",
+    "auther": "GaLa"
   },
   {
     "src": "http://cloud.hunger-valley.com/music/ifyou.mp3",
-    "title": "2IF YOU",
+    "title": "IF YOU",
     "auther": "Big Bang"
   },
   {
     "src": "http://cloud.hunger-valley.com/music/玫瑰.mp3",
-    "title": "3玫瑰",
+    "title": "玫瑰",
     "auther": "贰佰"
   },
   {
-    "src": "http://cloud.hunger-valley.com/music/ifyou.mp3",
-    "title": "4IF YOU",
-    "auther": "Big Bang"
+    "src": "https://yyp-allen.github.io/webMusicPlayer/music/%E9%BB%84%E6%98%8E%E5%BF%97,%E7%8E%8B%E5%8A%9B%E5%AE%8F-%E9%A3%98%E5%90%91%E5%8C%97%E6%96%B9/%E9%BB%84%E6%98%8E%E5%BF%97,%E7%8E%8B%E5%8A%9B%E5%AE%8F-%E9%A3%98%E5%90%91%E5%8C%97%E6%96%B9.mp3",
+    "title": "飘向北方",
+    "auther": "黄明志,王力宏"
   }
 ]
