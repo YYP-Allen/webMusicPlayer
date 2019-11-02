@@ -76,15 +76,30 @@ $('.musicBox .playBtn').onclick = function () {
     this.classList.remove('icon-play')
   }
 }
+// 切换上一曲下一曲时，播放列表显示对应正在播放的歌曲
+function showPlayNow(currentIndex) {
+  var musicNode = $('.container .songList').children
+  var  musicNodeList= musicNode.length
+  for (var i = 0; i < musicNodeList; i++ ) {
+    if (i === currentIndex) {
+      $('.container .songList').children[i].classList.add('showPlay')
+    } else {
+      $('.container .songList').children[i].classList.remove('showPlay')
+    }
+  }
+}
 // 切换到下一曲
 $('.musicBox .btn .icon-step-forward').onclick = function () {
   currentIndex = (++currentIndex)%musicList.length
+  showPlayNow(currentIndex)
+  
   // console.log(currentIndex)
   loadMusic(musicList[currentIndex])
 }
 // 切换到上一曲
 $('.musicBox .btn .icon-step-backward').onclick = function () {
   currentIndex = (musicList.length + (--currentIndex))%musicList.length
+  showPlayNow(currentIndex)
   console.log(currentIndex)
   loadMusic(musicList[currentIndex])
 }
